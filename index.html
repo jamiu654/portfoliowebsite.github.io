@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+    <header>
+        <h2>Jamiu</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="space">
+            <h1>Hello, I'm Jamiu</h1>
+            <h2>I am <span class="typing"></span></h2>
+            <p>Full stack Developer with 2+ years experience building modern websites.</p>
+            <div class="margin">
+                <div class="flex-btn">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="cv.pdf" download class="btn">Download CV</a>
+                </div>
+
+                <div class="socials">
+                    <a href="https://github.com/jamiu654" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="/Campfire-122.jpg" class="about-img">
+            <div class="about-text">
+                <p>I am a full stack developer with 2 years of experience in web development. I have worked on various
+                    projects ranging from simple websites to complex web applications. I am proficient in HTML, CSS,
+                    JavaScript, React, python and django. I am also familiar with other technologies such as Git,
+                    GitHub, and
+                    Bootstrap. I am a quick learner and can pick up new technologies easily. I am a team player and
+                    enjoy working in a collaborative environment. I am passionate about web development and strive to
+                    create high-quality, user-friendly, and responsive websites. I am always looking for new challenges
+                    and opportunities to grow as a developer.</p>
+            </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="card">
+                <img src="/port.png" />
+                <div style="padding:15px">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern personal portfolio design.</p>
+                    <a href="index.html" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/web.png" />
+                <div style="padding:15px">
+                    <h3>E-commerce UI</h3>
+                    <p>Clean shopping interface.</p>
+                    <a href="makeup.html" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="/sec.png" />
+                <div style="padding:15px">
+                    <h3>Dashboard App</h3>
+                    <p>Interactive admin dashboard.</p>
+                    <a href="phone.html" class="btn">View Project</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/xojpwvbw" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button class="btn" type="submit">Send Message</button>
+        </form>
+        <p style="margin-top:20px;">
+            Or email me: <a href="mailto:youremail@gmail.com" style="color:#38bdf8;">akoredelekan444@gmail.com</a>
+        </p>
+    </section>
+    <footer>
+        <p>© 2026 Jamiu</p>
+    </footer>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
